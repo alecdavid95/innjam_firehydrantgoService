@@ -5,7 +5,7 @@ applications:
   host: FireyHydrantGo
   domain: inn.jam.net
   buildpack: java_buildpack_current
-  path: ./target/FireyHydrantGo-0.0.1-SNAPSHOT.war
+  path: ./target/FireyHydrantGo-0.0.1-SNAPSHOT.jar
     
   env :
     JAVA_OPTS: -Duser.timezone=America/New_York -Dspring.profiles.active=cloud
