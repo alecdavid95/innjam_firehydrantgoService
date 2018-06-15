@@ -9,11 +9,8 @@ applications:
     
   env :
     JAVA_OPTS: -Duser.timezone=America/New_York -Dspring.profiles.active=cloud
-    logging.level.root: ${vcap.services.swi-logging.credentials.logging.level.root}
     logging.level.com.travelers: DEBUG
     
     ENCRYPT.pwd: 334FF98B51D35515DE90B015DD60B0201E5038CAB49561BB     
-    
-    spring.mvc.view.prefix: /WEB-INF/jsps/
-    spring.mvc.view.suffix: .jsp
+
     
