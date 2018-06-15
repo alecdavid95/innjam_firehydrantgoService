@@ -5,12 +5,14 @@ applications:
   host: FireyHydrantGo
   domain: inn.jam.net
   buildpack: java_buildpack_current
-  path: ./target/FireyHydrantGo-0.0.1-SNAPSHOT.jar
+  path: ./target/FireyHydrantGo-0.0.1-SNAPSHOT.war
     
   env :
     JAVA_OPTS: -Duser.timezone=America/New_York -Dspring.profiles.active=cloud
     logging.level.com.travelers: DEBUG
     
     ENCRYPT.pwd: 334FF98B51D35515DE90B015DD60B0201E5038CAB49561BB     
-
+    
+    spring.mvc.view.prefix: /WEB-INF/jsps/
+    spring.mvc.view.suffix: .jsp
     
