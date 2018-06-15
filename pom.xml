@@ -6,7 +6,7 @@
 	<groupId>inn.jam</groupId>
 	<artifactId>FireHydrantGo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>FireHydrantGo</name>
 	<description>FireHydrantGo</description>
